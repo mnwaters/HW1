@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "HW1.html",
+    "href": "HW1.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\nBeing a data scientist is about manipulating data to gain insights and create predictions for the future.\nWhat differences/similarities do you see between data scientists and statisticians?\nData scientists and statisticians are very similar. They both utilize data to find insights, and they both use programmaning as their main tool. However, data scientists overlap a little more with engineering in that ML technologies and other AI methodologies fall under their wheelhouse, whereas statisticians are more mathematical and can be more theoretical (tho not always).\nHow do you view yourself in relation to these two areas?\nI have a stronger affinity towards data science because my family business is based on ML algorithms and I would like to understand them better.\n\n\n\n\n\nFirst I create an object “y” that stores the density of petal width from the included Iris data set\n\n\ny &lt;- density(iris$Petal.Width)\n\n\nThen, I determine the class, which is the density\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\nThen, I determine the type of data which is a list\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\nThen, I determine the structure, which is a list of 8 among other things\n\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\n\nFinally, I create a plot of the data"
+  },
+  {
+    "objectID": "HW1.html#what-is-data-science",
+    "href": "HW1.html#what-is-data-science",
+    "title": "Data Science",
+    "section": "",
+    "text": "What do you think being a data scientist is about?\nBeing a data scientist is about manipulating data to gain insights and create predictions for the future.\nWhat differences/similarities do you see between data scientists and statisticians?\nData scientists and statisticians are very similar. They both utilize data to find insights, and they both use programmaning as their main tool. However, data scientists overlap a little more with engineering in that ML technologies and other AI methodologies fall under their wheelhouse, whereas statisticians are more mathematical and can be more theoretical (tho not always).\nHow do you view yourself in relation to these two areas?\nI have a stronger affinity towards data science because my family business is based on ML algorithms and I would like to understand them better."
+  },
+  {
+    "objectID": "HW1.html#code",
+    "href": "HW1.html#code",
+    "title": "Data Science",
+    "section": "",
+    "text": "First I create an object “y” that stores the density of petal width from the included Iris data set\n\n\ny &lt;- density(iris$Petal.Width)\n\n\nThen, I determine the class, which is the density\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\nThen, I determine the type of data which is a list\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\nThen, I determine the structure, which is a list of 8 among other things\n\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\n\nFinally, I create a plot of the data"
+  }
+]
