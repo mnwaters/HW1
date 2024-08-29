@@ -6,7 +6,6 @@
 
     Being a data scientist is about manipulating data to gain insights and create predictions for the future.
 
-
 -   What differences/similarities do you see between data scientists and statisticians?
 
     Data scientists and statisticians are very similar. They both utilize data to find insights, and they both use programmaning as their main tool. However, data scientists overlap a little more with engineering in that ML technologies and other AI methodologies fall under their wheelhouse, whereas statisticians are more mathematical and can be more theoretical (tho not always).
@@ -14,7 +13,36 @@
 -   How do you view yourself in relation to these two areas?
 
     I have a stronger affinity towards data science because my family business is based on ML algorithms and I would like to understand them better.
-    
-##
 
+## Code
+
+-   First I create an object "y" that stores the density of petal width from the included Iris data set
+
+```{r}
 y <- density(iris$Petal.Width)
+```
+
+-   Then, I determine the class, which is the density
+
+```{r}
+class(y)
+```
+
+-   Then, I determine the type of data which is a list
+
+```{r}
+typeof(y)
+```
+
+-   Then, I determine the structure, which is a list of 8 among other things
+
+```{r}
+str(y)
+```
+
+-   Finally, I create a plot of the data
+
+```{r}
+#| echo: false
+plot(y)
+```
